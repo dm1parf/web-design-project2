@@ -105,6 +105,8 @@ h1, h2, h3, h4, h5 {
     width: 100%;
     max-width: 880px;
     margin: 0 auto;
+
+    text-align: center;
 }
 
 .intro__suptitle {
@@ -112,7 +114,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Kaushan Script', cursive;
     font-size: 72px;
     color: #fff;
-    text-align: center;
+
 }
 
 .intro__title {
@@ -120,7 +122,6 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
-    text-align: center;
     line-height: 1;
 }
 
@@ -130,9 +131,48 @@ h1, h2, h3, h4, h5 {
     width: 60px;
     height: 3px;
     background-color: #fff;
-    margin: 60px auto 0;
+    margin: 60px auto;
 }
 
 .btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 25px;
+
+
+    border: 3px solid #fff;
+
+    color: #fff;
     
+
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color:#333;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__item {
+    width: 24%;
+
+    font-style: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.slider__number {
+    font-size: 24px;
+    font-weight: bold;
 }
