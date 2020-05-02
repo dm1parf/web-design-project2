@@ -74,11 +74,11 @@ h1, h2, h3, h4, h5 {
     opacity: 0;
 
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 0;
     z-index: 1;
 
-    transition: opacity .2s linear;
+    transition: opacity .15s linear;
 }
 
 .nav__link:hover {
@@ -86,7 +86,12 @@ h1, h2, h3, h4, h5 {
     transition: color .2s linear;
 }
 
-.nav__link:hover:after {
+.nav__link.active {
+    color: #fce38a;
+}
+
+.nav__link:hover:after,
+.nav__link.active:after {
     opacity: 1;
 }
 
@@ -112,13 +117,13 @@ h1, h2, h3, h4, h5 {
 .intro__suptitle {
     margin-bottom: 20px;
     font-family: 'Kaushan Script', cursive;
-    font-size: 72px;
+    font-size: 8vh;
     color: #fff;
 
 }
 
 .intro__title {
-    font-size:150px;
+    font-size: 16.5vh;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
@@ -131,7 +136,7 @@ h1, h2, h3, h4, h5 {
     width: 60px;
     height: 3px;
     background-color: #fff;
-    margin: 60px auto;
+    margin: 30px auto;
 }
 
 .btn {
@@ -160,19 +165,51 @@ h1, h2, h3, h4, h5 {
 
 /* Slider */
 .slider {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.slider__inner {
     display: flex;
     justify-content: space-between;
 }
 
 .slider__item {
-    width: 24%;
+    width: 23%;
+    padding: 20px 0;
+    position: relative;
 
-    font-style: 18px;
+    border-top: 3px solid #FFF;
+    opacity: .7;
+
+    font-size: 18px;
     color: #fff;
     text-transform: uppercase;
+}
+
+.slider__item.active {
+    opacity: 1;
+}
+
+.slider__item.active:before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+
+    background-color: #f38181;
+
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 1;
 }
 
 .slider__number {
     font-size: 24px;
     font-weight: bold;
 }
+
