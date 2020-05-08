@@ -393,6 +393,7 @@ h1, h2, h3, h4, h5 {
 
 /* Devices */
 .section.section--devices {
+    margin-bottom: 40px;
     padding-bottom: 0;
     background: url(../img/devices_background1.jpg) center no-repeat;
     background-size: cover;
@@ -415,4 +416,90 @@ h1, h2, h3, h4, h5 {
     bottom: -90px;
     right: -80px;
     z-index: 1;
+}
+
+/* Service */
+
+.wedo {
+    display: flex;
+}
+
+.wedo__item {
+    width: 50%;
+}
+
+/* Accordion */
+.accordion__item {
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+
+.accordion__item.active
+.accordion__content {
+    display: block;
+}
+
+.accordion__item.active
+.arrow {
+    transform:translateY(-50%)
+    rotate(180deg);
+}
+
+.accordion__item.active
+.accordion__header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.accordion__header {
+    position: relative;
+    align-items: center;
+    padding: 20px 20px 20px 45px;
+    border-bottom: 1px solid transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion__title {
+    margin-left:20px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.accordion__icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    z-index: 1;
+
+    transform:translateY(-50%);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 1;
+
+    transform:translateY(-50%)
+    
+    
+}
+
+.arrow:after {
+    transform: rotate(180deg);
+}
+
+.accordion__content {
+    padding: 7px 20px;
+    display: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    color:#999;
 }
