@@ -248,6 +248,13 @@ h1, h2, h3, h4, h5 {
     padding: 0;
 }
 
+.section--map {
+    background: url(../img/map_bg.jpg) center no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    
+}
+
 .section__header {
     width: 100%;
     max-width: 950px;
@@ -773,7 +780,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .clients__info {
-    padding-left: 150px
+    padding-left: 130px
 }
 
 .clients__name {
@@ -805,4 +812,245 @@ h1, h2, h3, h4, h5 {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #999999;
+}
+
+/* Blog */
+.calendar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar__item {
+    width: 30%;
+    
+}
+
+.calendar__card {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.calendar__date {
+    background: #95e1d3;
+    color: #fff;
+
+    position: absolute;
+    left: -10px;
+    bottom: 20px;
+    padding: 5px 15px;
+}
+
+.date__day {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.date__month {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.calendar__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.calendar__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+    color: #999999;
+    
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.calendar__stats {
+    display:flex;
+    align-items: center;
+}
+
+.stats__icon {
+    margin-right: 5px;
+}
+
+.stats__item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+    color: #999999;
+    margin-right: 20px;
+}
+
+/* Map */
+.map__icon {
+    margin-bottom: 20px;
+}
+
+.map__title {
+    color: #f38181;
+}
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info {
+    width: 35%;
+}
+
+.footer__title {
+    color: #cccccc;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #999999;
+    margin-bottom: 40px;
+}
+
+.footer__counter {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.footer__followers {
+    font-size: 14px;
+    display: inline-block;
+    
+}
+
+.footer__main {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.social__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+    color: #999999;
+    margin-right: 15px;
+}
+
+.social__icon {
+    margin-right: 10px;
+}
+
+.footer__blogs {
+    width: 30%;
+}
+
+.blogs__header {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.blogs__item {
+    margin-bottom: 40px;
+}
+
+.blogs__info {
+    position: relative;
+    padding-left: 130px;
+    padding-top: 10px;
+    
+}
+
+.blogs__title {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.blogs__date {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    font-style: italic;
+    color: #999999;
+}
+
+.blogs__image {
+    position: absolute;
+}
+
+.footer__instagram {
+    width: 25%
+}
+
+.instagram__header {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.instagram__photos {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.instagram__photo {
+    width: 30%;
+    margin: 0 2px;
+
+}
+
+.view__more a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: italic;
+
+    text-decoration: none;
+    color: #333;
+   
+}
+
+.copyright {
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    font-size: 14px;
+
+    padding: 15px 0;
+}
+
+.copyright__text {
+    display: inline-block;
+}
+
+.copyright__author {
+    display: inline-block;
+    color: #f38181
 }
