@@ -29,6 +29,13 @@
                     <a href="#" class="nav__link">Blog</a>
                     <a href="#" class="nav__link">Work</a>
                     <a href="#" class="nav__link">Contact</a>
+                    <a href="#" class="nav__link">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a href="#" class="nav__link">
+                            <i class="fas fa-search"></i>
+                    </a>
+
                 </nav>
             </div>
         </div>
@@ -48,19 +55,19 @@
                     <div class="slider__inner">
                         <div class="slider__item active">
                             <span class="slider__number">01</span>
-                            Intro
+                            <span class="slider__text">Intro</span>
                         </div>
                         <div class="slider__item">
                             <span class="slider__number">02 </span>
-                            Work
+                            <span class="slider__text">Work</span>
                         </div>
                         <div class="slider__item">
                             <span class="slider__number">03 </span>
-                            About
+                            <span class="slider__text">About</span>
                         </div>
                         <div class="slider__item">
                             <span class="slider__number">04</span>
-                            Contacts
+                            <span class="slider__text">Contacts</span>
                         </div>
                     </div>
                 </div>
@@ -187,62 +194,59 @@
                 </h2>
             </div>
             <div class="services">
-                <div class="services__row">
-                    <div class="services__item">
-                        <img src="assets/img/icons/services/services1.png" alt="" class="services__icon">
-                        <div class="services__title">
-                            Photography
-                        </div>
-                        <div class="services__text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
-                        </div>
+                <div class="services__item services--border">
+                    <img src="assets/img/icons/services/services1.png" alt="" class="services__icon">
+                    <div class="services__title">
+                        Photography
                     </div>
-                    <div class="services__item">
-                        <img src="assets/img/icons/services/services2.png" alt="" class="services__icon">
-                        <div class="services__title">
-                            Web Design
-                        </div>
-                        <div class="services__text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
-                        </div>
-                    </div>
-                    <div class="services__item">
-                        <img src="assets/img/icons/services/services3.png" alt="" class="services__icon">
-                        <div class="services__title">
-                            Creativity
-                        </div>
-                        <div class="services__text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
-                        </div>
+                    <div class="services__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
                     </div>
                 </div>
-                <div class="services__row">
-                    <div class="services__item">
-                        <img src="assets/img/icons/services/services4.png" alt="" class="services__icon">
-                        <div class="services__title">
-                            SEO
-                        </div>
-                        <div class="services__text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
-                        </div>
+                <div class="services__item services--border">
+                    <img src="assets/img/icons/services/services2.png" alt="" class="services__icon">
+                    <div class="services__title">
+                        Web Design
                     </div>
-                    <div class="services__item">
-                        <img src="assets/img/icons/services/services5.png" alt="" class="services__icon">
-                        <div class="services__title">
-                            CSS/HTML
-                        </div>
-                        <div class="services__text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
-                        </div>
+                    <div class="services__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
                     </div>
-                    <div class="services__item">
-                        <img src="assets/img/icons/services/services6.png" alt="" class="services__icon">
-                        <div class="services__title">
-                            Digital
-                        </div>
-                        <div class="services__text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
-                        </div>
+                </div>
+                <div class="services__item services--border">
+                    <img src="assets/img/icons/services/services3.png" alt="" class="services__icon">
+                    <div class="services__title">
+                        Creativity
+                    </div>
+                    <div class="services__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
+                    </div>
+                    
+                </div>
+                <div class="services__item">
+                    <img src="assets/img/icons/services/services4.png" alt="" class="services__icon">
+                    <div class="services__title">
+                        SEO
+                    </div>
+                    <div class="services__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
+                    </div>
+                </div>
+                <div class="services__item">
+                    <img src="assets/img/icons/services/services5.png" alt="" class="services__icon">
+                    <div class="services__title">
+                        CSS/HTML
+                    </div>
+                    <div class="services__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
+                    </div>
+                </div>
+                <div class="services__item">
+                    <img src="assets/img/icons/services/services6.png" alt="" class="services__icon">
+                    <div class="services__title">
+                        Digital
+                    </div>
+                    <div class="services__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia dolore quibusdam.
                     </div>
                 </div>
             </div>
@@ -283,7 +287,7 @@
             </div>
             <div class="wedo">
                 <div class="wedo__item">
-                    <img src="assets/img/wedo.jpg" alt="">
+                    <img src="assets/img/wedo.jpg" alt="" class="wedo__image">
                 </div>
                 <div class="wedo__item">
                     <div class="accordion">
@@ -904,67 +908,80 @@
                             Follow Us:
                         </div>
                         <div class="social__icon">
-                            <img src="assets/img/icons/social_green/facebook.png" alt="" class="social__image">
+                            <a href="#"><img src="assets/img/icons/social_green/facebook.png" alt="" class="social__image"></a>
                         </div>
                         <div class="social__icon">
-                            <img src="assets/img/icons/social_green/twitter.png" alt="" class="social__image">
+                            <a href="#"><img src="assets/img/icons/social_green/twitter.png" alt="" class="social__image"></a>
                         </div>
                         <div class="social__icon">
-                            <img src="assets/img/icons/social_green/instagram.png" alt="" class="social__image">
+                            <a href="#"><img src="assets/img/icons/social_green/instagram.png" alt="" class="social__image"></a>
                         </div>
                         <div class="social__icon">
-                            <img src="assets/img/icons/social_green/pinterest.png" alt="" class="social__image">
+                            <a href="#"><img src="assets/img/icons/social_green/pinterest.png" alt="" class="social__image"></a>
                         </div>
                         <div class="social__icon">
-                            <img src="assets/img/icons/social_green/google plus.png" alt="" class="social__image">
+                            <a href="#"><img src="assets/img/icons/social_green/google plus.png" alt="" class="social__image"></a>
                         </div>
                         <div class="social__icon">
-                            <img src="assets/img/icons/social_green/youtube.png" alt="" class="social__image">
+                            <a href="#"><img src="assets/img/icons/social_green/youtube.png" alt="" class="social__image"></a>
                         </div>
                         <div class="social__icon">
-                            <img src="assets/img/icons/social_green/dribbble.png" alt="" class="social__image">
+                            <a href="#"><img src="assets/img/icons/social_green/dribbble.png" alt="" class="social__image"></a>
                         </div>
                         <div class="social__icon">
-                            <img src="assets/img/icons/social_green/tumblr.png" alt="" class="social__image">
+                            <a href="#"><img src="assets/img/icons/social_green/tumblr.png" alt="" class="social__image"></a>
                         </div>
                         
                     </div>
-                    <div class="footer__subscribe">
-                        <input type="text" placeholder="Your Email...">
-                    </div>
+
+                    <form action="/" method="POST" class="subscribe">
+                        <input type="email" placeholder="Your Email..." class="subscribe__input">
+                        <button type="submit" class="subscribe__button">
+                            Subscribe
+                        </button>
+                    </form>
                 </div>
                 <div class="footer__blogs">
                     <div class="blogs__header">
                         Blogs
                     </div>
                     <div class="blogs__item">
-                        <img src="assets/img/footer_blogs/footer_blogs1.jpg" alt="" class="blogs__image">
+                        
                         <div class="blogs__info">
-                            <div class="blogs__title">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing
-                            </div>
+                            <a href="#"><img src="assets/img/footer_blogs/footer_blogs1.jpg" alt="" class="blogs__image"></a>
+                            <a href="#">
+                                <div class="blogs__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                </div>
+                            </a>
                             <div class="blogs__date">
                                 Jan 9, 2016
                             </div>
                         </div>
                     </div>
                     <div class="blogs__item">
-                        <img src="assets/img/footer_blogs/footer_blogs2.jpg" alt="" class="blogs__image">
+                        
                         <div class="blogs__info">
-                            <div class="blogs__title">
-                                Consectetur adipiscing elit, sed do eiusmod tempor
-                            </div>
+                            <a href="#"><img src="assets/img/footer_blogs/footer_blogs2.jpg" alt="" class="blogs__image"></a>
+                            <a href="#">
+                                <div class="blogs__title">
+                                    Consectetur adipiscing elit, sed do eiusmod tempor
+                                </div>
+                            </a>
                             <div class="blogs__date">
                                 Jan 9, 2016
                             </div>
                         </div>
                     </div>
                     <div class="blogs__item">
-                        <img src="assets/img/footer_blogs/footer_blogs3.jpg" alt="" class="blogs__image">
+                        
                         <div class="blogs__info">
-                            <div class="blogs__title">
-                                sed do eiusmod tempor incididunt ut labore
-                            </div>
+                            <a href="#"><img src="assets/img/footer_blogs/footer_blogs3.jpg" alt="" class="blogs__image"></a>
+                            <a href="#">
+                                <div class="blogs__title">
+                                    sed do eiusmod tempor incididunt ut labore
+                                </div>
+                            </a>
                             <div class="blogs__date">
                                 Jan 9, 2016
                             </div>
@@ -977,31 +994,31 @@
                     </div>
                     <div class="instagram__photos">
                         <div class="instagram__photo">
-                            <img src="assets/img/footer_instagram/footer_insta1.png" alt="">
+                            <a href="#"><img src="assets/img/footer_instagram/footer_insta1.png" alt=""></a>
                         </div>
                         <div class="instagram__photo">
-                            <img src="assets/img/footer_instagram/footer_insta2.png" alt="">
+                            <a href="#"><img src="assets/img/footer_instagram/footer_insta2.png" alt=""></a>
                         </div>
                         <div class="instagram__photo">
-                            <img src="assets/img/footer_instagram/footer_insta3.png" alt="">
+                            <a href="#"><img src="assets/img/footer_instagram/footer_insta3.png" alt=""></a>
                         </div>
                         <div class="instagram__photo">
-                            <img src="assets/img/footer_instagram/footer_insta4.png" alt="">
+                            <a href="#"><img src="assets/img/footer_instagram/footer_insta4.png" alt=""></a>
                         </div>
                         <div class="instagram__photo">
-                            <img src="assets/img/footer_instagram/footer_insta5.png" alt="">
+                            <a href="#"><img src="assets/img/footer_instagram/footer_insta5.png" alt=""></a>
                         </div>
                         <div class="instagram__photo">
-                            <img src="assets/img/footer_instagram/footer_insta6.png" alt="">
+                            <a href="#"><img src="assets/img/footer_instagram/footer_insta6.png" alt=""></a>
                         </div>
                         <div class="instagram__photo">
-                            <img src="assets/img/footer_instagram/footer_insta7.png" alt="">
+                            <a href="#"><img src="assets/img/footer_instagram/footer_insta7.png" alt=""></a>
                         </div>
                         <div class="instagram__photo">
-                            <img src="assets/img/footer_instagram/footer_insta8.png" alt="">
+                            <a href="#"><img src="assets/img/footer_instagram/footer_insta8.png" alt=""></a>
                         </div>
                         <div class="instagram__photo">
-                            <img src="assets/img/footer_instagram/footer_insta9.jpg" alt="">
+                            <a href="#"><img src="assets/img/footer_instagram/footer_insta9.jpg" alt=""></a>
                         </div>
                         
                     </div>
